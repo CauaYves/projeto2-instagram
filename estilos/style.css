@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+@media screen and (max-width: 614px) {
+
+    body{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+    }
+
+    nav{
+        background-color: aqua;
+        width: 100vw;
+        height: 54px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav a:nth-child(2){ /*logo do instagram*/
+        margin: 17px 0px 8px 0px;
+    }
+
+    section#stories{
+        min-width: 600px;
+        height: 85px;
+        background-color: aquamarine;
+
+        display: flex;
+        align-items: center;
+    }
+    main{
+        height: 100px;
+        width: 100vw;
+    }
+    a.story-perfil{
+        text-decoration: none;
+    }
+    a.story-perfil > img{
+        width: 56px;
+        border-radius: 50%;
+        margin: 0px 5px;
+    }
+    button{
+        display: none;
+    }
+}
