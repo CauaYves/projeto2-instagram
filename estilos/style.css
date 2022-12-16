@@ -6,7 +6,6 @@
     body{
         font-family: Open Sans;
         font-size: 14px;
-        width: 100vw;
     }
 
     header{
@@ -148,7 +147,12 @@
         top: 3px;
         left: 25px;
     }
-
+    hr.line-up-post{
+        margin: 0;
+    }
+    hr.line-down-post{
+        margin-bottom: 60px;
+    }
 
     
 
