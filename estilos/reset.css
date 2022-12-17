@@ -44,3 +44,8 @@ table {
 hr{
     margin: 0;    
 }
+u{
+	cursor: pointer;
+	font-weight: bolder;
+	text-decoration: none;
+}
