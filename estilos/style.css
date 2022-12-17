@@ -37,7 +37,6 @@ u{
     font-weight: bolder;
 }
 section#stories{
-    background-color: rgba(250, 235, 215, 0);
     width: 100vw;
     height: 85px;
 
@@ -67,7 +66,8 @@ img.img-story{
 }
 
 div.background-story{
-    height: 56px;
+    padding-top: 7px;
+    height: 65px;
     background: url(../imagens/stories_background.jpg);
     background-size: 64.4px;
     background-repeat: no-repeat;
