@@ -146,9 +146,22 @@ div.liked-by{
     top: 3px;
     left: 25px;
 }
+
 hr.line-up-post{
     margin: 0;
 }
+
 hr.line-down-post{
     margin-bottom: 60px;
+}
+
+img.nav-icon{
+    cursor: pointer;
+    margin: 0px 15px;
+}
+
+#navigation-mobile{
+    background-color: #DBDBDB;
+    position: fixed;
+    bottom: 0;
 }
