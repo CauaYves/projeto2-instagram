@@ -381,6 +381,10 @@
         align-items: center;
     }
 
+    div.my-profile-name > div > p {
+        color: #8E8E8E;
+    }
+
     div#my-profile > img{
         width: 56px;
         border-radius: 50%;
@@ -402,6 +406,10 @@
         justify-content: space-between;
     }
     
+    div#sugest-list-profile > div > p {
+        color: #8E8E8E;
+        font-size: 12px;
+    }
 
     section#sugest-profile > div.profile-follow-sugest > img{
         width: 32px;
@@ -413,6 +421,10 @@
         display: flex;
     }
 
+    div.profile-follow-sugest > img {
+        margin-right: 11px;
+    }
+
     div.profiles-to-follow{
         width: 100%;
 
@@ -421,11 +433,25 @@
         justify-content: space-between;
     }
 
+    div.profiles-to-follow > div p {
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    h6.follow-this{
+        color: #139EF2;
+    }
+
+    a.link-follow-this{
+        text-decoration: none;
+    }
+
     p#sobre{
         margin: 10px;
+        color: #C7C7C7;
     }
 
     p#meta{
+        color: #C7C7C7;
 
     }
 
