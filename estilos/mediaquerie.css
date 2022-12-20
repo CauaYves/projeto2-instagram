@@ -359,9 +359,74 @@
         box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.26);
     }
 
+    section#principal-content{
+        display: flex;
+        width: 940px;
+        margin: auto;
+        justify-content: space-between;
+    }
+
     section#feed{
         width: 614px;
-        margin: auto;
+    }
+
+    section#sugest-profile{
+        width: 300px;
+    }
+
+    div#my-profile{
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    div#my-profile > img{
+        width: 56px;
+        border-radius: 50%;
+        margin-right: 17px;
+    }
+
+    div#sugest-list-profile{
+        height: 57px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#sugest-list-profile > div{
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    section#sugest-profile > div.profile-follow-sugest > img{
+        width: 32px;
+        border-radius: 50%;
+    }
+
+    div.profile-follow-sugest{
+        margin: 17px 0px;
+        display: flex;
+    }
+
+    div.profiles-to-follow{
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    p#sobre{
+        margin: 10px;
+    }
+
+    p#meta{
+
     }
 
     div.profile-autor-pub > img{
