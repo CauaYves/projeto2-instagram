@@ -143,6 +143,11 @@
         position: relative;
         margin-bottom: 60px;
     }
+
+    div.publication > video{
+        background-color: black;
+        width: 100%;
+    }
     .profile-autor-pub{
         height: 61px;
         display: flex;
@@ -444,6 +449,7 @@
     }
 
     p#sobre{
+        font-size: 11px;
         margin: 10px;
         color: #C7C7C7;
         margin-top: 33px;
@@ -451,7 +457,7 @@
 
     p#meta{
         color: #C7C7C7;
-
+        font-size: 11px;
     }
 
     div.profile-autor-pub > img{
@@ -467,6 +473,10 @@
         width: 100%;
     }
     
+    div.publication > video{
+        background-color: black;
+        width: 100%;
+    }
     div.pub{
         background-color: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.171);
