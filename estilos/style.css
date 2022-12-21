@@ -4,7 +4,7 @@
 /* Versão Mobile First */
 @media screen and (max-width: 612px ){
         
-    p.auto-story-name, hr#line-tablet-up{
+    p.auto-story-name, hr#line-tablet-up, section#sugest-profile{
         display: none;
     }
 
@@ -45,6 +45,16 @@
         text-decoration: none;
         font-weight: bolder;
     }
+
+    main{
+        height: 100px;
+        width: 100vw;
+    }
+
+    a.story-perfil{
+        text-decoration: none;
+    }
+
     section#stories{
         width: 100vw;
         height: 85px;
@@ -57,31 +67,30 @@
         overflow-x: hidden;
     }
 
-    main{
-        height: 100px;
-        width: 100vw;
-    }
-
-    a.story-perfil{
-        text-decoration: none;
-    }
-
-    img.img-story{
-        border-radius: 50%;
-        margin: 5px 0px;
-        width: 56px;
-        cursor: pointer;
-        margin: 0px 5px;
-    }
-
     div.background-story{
-        padding-top: 7px;
-        height: 65px;
+        height: 100%;
+        background-color: red;
+        margin: 0px 7px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         background: url(../imagens/stories_background.jpg);
-        background-size: 64.4px;
+        background-size: 66px;
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    div.background-story > div{
+        margin: 2px 4px 0px 4px;
+    }
+
+    div.background-story > div > img{
+        width: 56px;
+        border-radius: 50%;
+    }
+
     #arrow-story{
         display: none;
     }
