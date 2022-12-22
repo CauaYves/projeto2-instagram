@@ -54,42 +54,47 @@
     a.story-perfil{
         text-decoration: none;
     }
-
     section#stories{
-        background-color: rgba(255, 255, 255, 0);
+        background-color: transparent;
+        margin: auto;
+        height: 118px;
         width: 100vw;
-        height: 85px;
 
         display: flex;
         align-items: center;
-        
-        overflow: scroll;
-        overflow-y: hidden;
-        overflow-x: hidden;
+
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.171);
+        border-radius: 3px;
     }
 
-    div.background-story{
-        height: 100%;
-        background-color: red;
-        margin: 0px 7px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .img-story{
+        height: 56px;
+        width: 55px;
+        padding: 5px;
         background: url(../imagens/stories_background.jpg);
-        background-size: 66px;
         background-repeat: no-repeat;
+        background-size: 64px;
         background-position: center center;
     }
-
-    div.background-story > div{
-        margin: 2px 4px 0px 4px;
+    .p{
+        height: 19px;
+        width: 70px;
+        text-align: center;
     }
-
-    div.background-story > div > img{
+    .p > p {
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .background-story > .img-story > img{
         width: 56px;
         border-radius: 50%;
+    }
+
+    .background-story{
+        background-color:transparent;
     }
 
     #arrow-story{

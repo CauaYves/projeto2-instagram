@@ -1,222 +1,4 @@
 @charset "UTF-8";
-@media screen and (max-width: 935px) and (min-width: 613px) {
-
-    #mobile-nav-top, hr#mobile-hr, hr#line-mobile-bottom-stories,hr.line-down-post, hr.line-up-post, nav#navigation-mobile, section#sugest-profile{
-        display: none;
-    }
-
-    body{
-        font-family: Open Sans;
-        font-size: 14px;
-    }
-    nav#tablet-nav-top{
-        height: 54px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    #logo{
-        width: 103px;
-        margin-bottom: 5px;
-    }
-
-    div#left-icons-container{
-        margin: 5px 0px 5px 0px;
-        width: 185px;
-        height: 20px;
-
-        display: flex;
-        justify-content: space-around;
-    }
-
-    div#logo-icon-container{
-        border-right: 1px solid rgba(0, 0, 0, 0.171);
-        
-    }
-
-    div#logo-icon-container > a > img{
-        margin-right: 22px;
-    }
-    div#left-icons-container > a, div#right-icons-container > a{
-        margin: 0px 14px;
-    }
-
-    div#left-icons-container > a , div#right-icons-container > a {
-        text-decoration: none;
-    }
-    
-
-    input#itext{
-        background-color: #DBDBDB;
-        text-align: center;
-        border: none;
-        border-radius: 3px;
-        width: 200px;
-        height: 28px;
-        box-sizing: border-box;
-    }
-
-    hr#line-tablet-up{
-        border-color: rgba(0, 0, 0, 0.171);
-        margin-bottom: 34px;
-    }
-
-    /*termina estilos de topo e começa os estilos do meio*/
-
-    section#stories{
-        background-color: #FFFFFF;
-        margin: 0px auto 60px auto;
-        height: 118px;
-        width: 614px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        overflow: hidden;
-        border: 1px solid rgba(0, 0, 0, 0.171);
-        border-radius: 3px;
-
-        position: relative;
-    }
-    
-    section#stories :nth-child(1){
-        margin-left: 10px;
-    }
-    
-    
-    .background-story{
-        margin-bottom: 15px;
-        background: url(../imagens/stories_background.jpg);
-        background-repeat: no-repeat;
-        background-size: 64px;
-        background-position: top right;
-    }
-
-    .background-story > div{
-        margin: 4px 3px 0px 0px;
-    }
-
-    .background-story > div > img{
-        width: 56px;
-        border-radius: 50%;
-        
-    }
-
-    p.auto-story-name{
-        text-align: center;
-    }
-
-    span#arrow-story{
-        cursor: pointer;
-        background-color: #f7f7f7;
-        color: gray;
-        border-radius: 50%;
-        position: absolute;
-        left: 591px;
-        bottom: 38px;
-        box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.26);
-    }
-
-    section#feed{
-        width: 614px;
-        margin: auto;
-    }
-
-    div.profile-autor-pub > img{
-        width: 32px;
-    }
-
-    div.profile-autor-pub{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    div.publication > img{
-        width: 100%;
-    }
-    
-    div.pub{
-        border: 1px solid rgba(0, 0, 0, 0.171);
-        border-radius: 3px;
-        position: relative;
-        margin-bottom: 60px;
-    }
-
-    div.publication > video{
-        background-color: black;
-        width: 100%;
-    }
-    .profile-autor-pub{
-        height: 61px;
-        display: flex;
-        align-items: center;
-        margin: 0px 15px;
-    }
-    p.autor-pub-name{
-        position: absolute;
-        top: 21px;
-        left: 65px;
-        cursor: pointer;
-    }
-
-    div.profile-autor-pub > img{
-        border-radius: 50%;
-        cursor: pointer;
-
-    }
-
-    .material-icons{
-        cursor: pointer;
-    }
-
-    div.social-stats{
-        height: 76px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-
-    div.reactions{
-        height: 50%;
-        width: 100%;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    div.left-icons{
-        margin-left: 17px;
-    }
-    div.liked-by{
-        height: 50%;
-        width: 100%;
-        margin-left: 25px;
-
-        display: flex;
-        align-items: center;
-    }
-
-    div.liked-by > img {
-        margin-right: 5px;
-    }
-
-    img.reactions-icons{
-        cursor: pointer;
-        margin: 0px 5px;
-    }
-
-    img.favorite-icon{
-        cursor: pointer;
-        margin-right: 10px;
-    }
-    .profile-img{
-        cursor: pointer;
-    }
-}   
 /*desktop styles*/
 
 @media screen and (min-width: 935px) {
@@ -307,47 +89,46 @@
     }
 
     section#stories{
-        background-color: #FFFFFF;
+        background-color: #fffcfc;
         margin: 0px auto 60px auto;
         height: 118px;
         width: 614px;
 
         display: flex;
-        justify-content: space-between;
         align-items: center;
 
         overflow: hidden;
         border: 1px solid rgba(0, 0, 0, 0.171);
         border-radius: 3px;
-
-        position: relative;
-    }
-    
-    section#stories :nth-child(1){
-        margin-left: 10px;
     }
 
-    .background-story{
-        margin-bottom: 15px;
+    .img-story{
+        height: 56px;
+        width: 55px;
+        padding: 5px;
         background: url(../imagens/stories_background.jpg);
         background-repeat: no-repeat;
         background-size: 64px;
-        background-position: top right;
+        background-position: center center;
     }
-
-    .background-story > div{
-        margin: 4px 3px 0px 0px;
+    .p{
+        height: 19px;
+        width: 70px;
+        text-align: center;
     }
-
-    .background-story > div > img{
+    .p > p {
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .background-story > .img-story > img{
         width: 56px;
         border-radius: 50%;
-        
     }
 
-    p.auto-story-name{
-        margin-left: 14px;
-        text-align: center;
+    .background-story{
+        background-color:transparent;
     }
 
     span#arrow-story{
@@ -553,3 +334,221 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width: 935px) and (min-width: 613px) {
+
+    #mobile-nav-top, hr#mobile-hr, hr#line-mobile-bottom-stories,hr.line-down-post, hr.line-up-post, nav#navigation-mobile, section#sugest-profile{
+        display: none;
+    }
+
+    body{
+        font-family: Open Sans;
+        font-size: 14px;
+    }
+    nav#tablet-nav-top{
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #logo{
+        width: 103px;
+        margin-bottom: 5px;
+    }
+
+    div#left-icons-container{
+        margin: 5px 0px 5px 0px;
+        width: 185px;
+        height: 20px;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div#logo-icon-container{
+        border-right: 1px solid rgba(0, 0, 0, 0.171);
+        
+    }
+
+    div#logo-icon-container > a > img{
+        margin-right: 22px;
+    }
+    div#left-icons-container > a, div#right-icons-container > a{
+        margin: 0px 14px;
+    }
+
+    div#left-icons-container > a , div#right-icons-container > a {
+        text-decoration: none;
+    }
+    
+
+    input#itext{
+        background-color: #DBDBDB;
+        text-align: center;
+        border: none;
+        border-radius: 3px;
+        width: 200px;
+        height: 28px;
+        box-sizing: border-box;
+    }
+
+    hr#line-tablet-up{
+        border-color: rgba(0, 0, 0, 0.171);
+        margin-bottom: 34px;
+    }
+
+    /*termina estilos de topo e começa os estilos do meio*/
+
+    section#stories{
+        background-color: #fffcfc;
+        margin: 0px auto 60px auto;
+        height: 118px;
+        width: 614px;
+
+        display: flex;
+        align-items: center;
+
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.171);
+        border-radius: 3px;
+    }
+
+    .img-story{
+        height: 56px;
+        width: 55px;
+        padding: 5px;
+        background: url(../imagens/stories_background.jpg);
+        background-repeat: no-repeat;
+        background-size: 64px;
+        background-position: center center;
+    }
+    .p{
+        height: 19px;
+        width: 70px;
+        text-align: center;
+    }
+    .p > p {
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .background-story > .img-story > img{
+        width: 56px;
+        border-radius: 50%;
+    }
+
+    .background-story{
+        background-color:transparent;
+    }
+
+
+    span#arrow-story{
+        cursor: pointer;
+        background-color: #f7f7f7;
+        color: gray;
+        border-radius: 50%;
+        position: absolute;
+        left: 591px;
+        bottom: 38px;
+        box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.26);
+    }
+
+    section#feed{
+        width: 614px;
+        margin: auto;
+    }
+
+    div.profile-autor-pub > img{
+        width: 32px;
+    }
+
+    div.profile-autor-pub{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.publication > img{
+        width: 100%;
+    }
+    
+    div.pub{
+        border: 1px solid rgba(0, 0, 0, 0.171);
+        border-radius: 3px;
+        position: relative;
+        margin-bottom: 60px;
+    }
+
+    div.publication > video{
+        background-color: black;
+        width: 100%;
+    }
+    .profile-autor-pub{
+        height: 61px;
+        display: flex;
+        align-items: center;
+        margin: 0px 15px;
+    }
+    p.autor-pub-name{
+        position: absolute;
+        top: 21px;
+        left: 65px;
+        cursor: pointer;
+    }
+
+    div.profile-autor-pub > img{
+        border-radius: 50%;
+        cursor: pointer;
+
+    }
+
+    .material-icons{
+        cursor: pointer;
+    }
+
+    div.social-stats{
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    div.reactions{
+        height: 50%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.left-icons{
+        margin-left: 17px;
+    }
+    div.liked-by{
+        height: 50%;
+        width: 100%;
+        margin-left: 25px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    div.liked-by > img {
+        margin-right: 5px;
+    }
+
+    img.reactions-icons{
+        cursor: pointer;
+        margin: 0px 5px;
+    }
+
+    img.favorite-icon{
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .profile-img{
+        cursor: pointer;
+    }
+}   
