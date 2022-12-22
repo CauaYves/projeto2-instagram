@@ -99,6 +99,8 @@
         overflow: hidden;
         border: 1px solid rgba(0, 0, 0, 0.171);
         border-radius: 3px;
+
+        position: relative;
     }
 
     .img-story{
@@ -130,15 +132,17 @@
         background-color:transparent;
     }
 
-    span#arrow-story{
-        cursor: pointer;
-        background-color: #f7f7f7;
-        color: gray;
+    ion-icon{
+        font-size: 18px;
+
+        background-color: #FFFFFF;
         border-radius: 50%;
+
         position: absolute;
-        left: 591px;
-        bottom: 38px;
-        box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.26);
+        left: 595px;
+        top: 50px;
+
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.342);
     }
 
     section#principal-content{
@@ -410,8 +414,23 @@
         overflow: hidden;
         border: 1px solid rgba(0, 0, 0, 0.171);
         border-radius: 3px;
+
+        position: relative;
     }
 
+    ion-icon{
+        font-size: 18px;
+
+        background-color: #FFFFFF;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 595px;
+        top: 50px;
+
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.342);
+    }
+    
     .img-story{
         height: 56px;
         width: 55px;
@@ -441,16 +460,11 @@
         background-color:transparent;
     }
 
-
-    span#arrow-story{
-        cursor: pointer;
-        background-color: #f7f7f7;
-        color: gray;
-        border-radius: 50%;
+    #icon{
         position: absolute;
-        left: 591px;
-        bottom: 38px;
-        box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.26);
+        right: 0;
+        top: 0px;
+        background-color: red;
     }
 
     section#feed{

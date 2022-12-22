@@ -4,7 +4,7 @@
 /* Versão Mobile First */
 @media screen and (max-width: 612px ){
         
-    p.auto-story-name, hr#line-tablet-up, section#sugest-profile{
+    p.auto-story-name, hr#line-tablet-up, section#sugest-profile, #arrow{
         display: none;
     }
 
