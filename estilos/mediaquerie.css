@@ -67,15 +67,14 @@
     
 
     input#itext{
-        background-color: #eeeeee;
+        background-color: #FAFAFA;
         text-align: center;
-        border: 1px solid rgb(151, 151, 151);
+        border: 1px solid rgb(218, 218, 218);
         border-radius: 3px;
         width: 200px;
         height: 28px;
         box-sizing: border-box;
     }
-
     hr#line-tablet-up{
         border-color: rgba(0, 0, 0, 0.171);
         margin-bottom: 34px;
@@ -383,9 +382,9 @@
     
 
     input#itext{
-        background-color: #DBDBDB;
+        background-color: #FAFAFA;
         text-align: center;
-        border: none;
+        border: 1px solid rgb(218, 218, 218);
         border-radius: 3px;
         width: 200px;
         height: 28px;
